@@ -1,6 +1,6 @@
 # 💻 Turing-Decidable Machine Lab
 
-An interactive, professional-grade **Deterministic Turing Machine (DTM)** simulator designed to visualize the **decidability** of formal languages. Unlike a standard recognizer, this machine acts as a **Decider**, ensuring that for any input string $w \in \Sigma^*$, the simulation will eventually halt in either an **Accept** or **Reject** state.
+An interactive, professional-grade **Decidable Turing Machine (DTM)** simulator designed to visualize the **decidability** of formal languages. Unlike a standard recognizer, this machine acts as a **Decider**, ensuring that for any input string $w \in \Sigma^*$, the simulation will eventually halt in either an **Accept** or **Reject** state.
 
 ## 🚀 Live Demo
 **[https://dtm-sim.vercel.app/]**
@@ -23,7 +23,7 @@ An interactive, professional-grade **Deterministic Turing Machine (DTM)** simula
 
 ## 📖 Theoretical Background
 
-The simulator serves as a **Universal Turing Machine (UTM)**. It takes two inputs:
+The simulator serves as a **Decidable Turing Machine (DTM)**. It takes two inputs:
 1.  **The "Program":** The transition function $\delta$ of a specific language from the library.
 2.  **The "Data":** The user-provided input string.
 
@@ -50,7 +50,7 @@ In the Theory of Computation, a language $L$ is **Turing-Decidable** (or Recursi
 ### Installation & Local Setup
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Mohammed-Kamran-Ahmed/utm-sim.git](https://github.com/Mohammed-Kamran-Ahmed/utm-sim.git)
+    git clone [https://github.com/Mohammed-Kamran-Ahmed/dtm-sim.git](https://github.com/Mohammed-Kamran-Ahmed/dtm-sim.git)
     ```
 2.  **Install dependencies:**
     ```bash
@@ -69,5 +69,3 @@ This project was developed as part of the **Theory of Computation** curriculum a
 
 ---
 
-## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
