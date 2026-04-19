@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  font-family: Inter, 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+svg text {
+  paint-order: stroke;
+  stroke: rgba(2, 6, 23, 0.6);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
