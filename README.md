@@ -3,7 +3,7 @@
 An interactive, professional-grade **Deterministic Turing Machine (DTM)** simulator designed to visualize the **decidability** of formal languages. Unlike a standard recognizer, this machine acts as a **Decider**, ensuring that for any input string $w \in \Sigma^*$, the simulation will eventually halt in either an **Accept** or **Reject** state.
 
 ## 🚀 Live Demo
-**[Insert your Vercel URL here]**
+**[https://dtm-sim.vercel.app/]**
 
 ---
 
