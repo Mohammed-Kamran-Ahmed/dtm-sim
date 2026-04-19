@@ -428,7 +428,7 @@ const App = () => {
           <div className="relative flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-3xl space-y-3">
               <p className="inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.35em] text-cyan-200">
-                Universal Turing Machine Lab
+                Decidable Turing Machine Lab
               </p>
               <div>
                 <h1 className="text-3xl font-black tracking-tight text-white md:text-5xl">
